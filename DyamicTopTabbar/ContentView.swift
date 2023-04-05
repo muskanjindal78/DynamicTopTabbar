@@ -6,6 +6,9 @@ struct ContentView: View {
         VStack {
             if let albumList = tabbarViewModel.albumList {
                 MainTabbarView(albumList: albumList)
+            } else {
+                Text("Data is not available! Try again Later")
+                    .foregroundColor(.red)
             }
         }
         .onAppear {
