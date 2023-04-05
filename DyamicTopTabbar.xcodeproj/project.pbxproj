@@ -14,6 +14,18 @@
 		AE8DB6B129DD192500561A17 /* DyamicTopTabbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6B029DD192500561A17 /* DyamicTopTabbarTests.swift */; };
 		AE8DB6BB29DD192500561A17 /* DyamicTopTabbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6BA29DD192500561A17 /* DyamicTopTabbarUITests.swift */; };
 		AE8DB6BD29DD192500561A17 /* DyamicTopTabbarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6BC29DD192500561A17 /* DyamicTopTabbarUITestsLaunchTests.swift */; };
+		AE8DB6CB29DD198E00561A17 /* TabbarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6CA29DD198E00561A17 /* TabbarItemView.swift */; };
+		AE8DB6CD29DD1B6F00561A17 /* TabbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6CC29DD1B6F00561A17 /* TabbarItem.swift */; };
+		AE8DB6CF29DD1C5000561A17 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6CE29DD1C5000561A17 /* TabbarView.swift */; };
+		AE8DB6D329DD201D00561A17 /* AlbumsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6D229DD201D00561A17 /* AlbumsModel.swift */; };
+		AE8DB6D529DD202700561A17 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6D429DD202700561A17 /* PhotosModel.swift */; };
+		AE8DB6DA29DD219300561A17 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6D929DD219300561A17 /* Constants.swift */; };
+		AE8DB6DC29DD232A00561A17 /* TabbarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6DB29DD232A00561A17 /* TabbarViewModel.swift */; };
+		AE8DB6DE29DD233C00561A17 /* TabbarDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6DD29DD233C00561A17 /* TabbarDataViewModel.swift */; };
+		AE8DB6E029DD2BEC00561A17 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6DF29DD2BEC00561A17 /* ImageView.swift */; };
+		AE8DB6E229DD2C0700561A17 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6E129DD2C0700561A17 /* ImageLoader.swift */; };
+		AE8DB6E429DD31C200561A17 /* MainTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6E329DD31C200561A17 /* MainTabbarView.swift */; };
+		AE8DB6E629DD3A1100561A17 /* ImageWIthTitleId.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DB6E529DD3A1100561A17 /* ImageWIthTitleId.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,18 @@
 		AE8DB6B629DD192500561A17 /* DyamicTopTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyamicTopTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8DB6BA29DD192500561A17 /* DyamicTopTabbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyamicTopTabbarUITests.swift; sourceTree = "<group>"; };
 		AE8DB6BC29DD192500561A17 /* DyamicTopTabbarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyamicTopTabbarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE8DB6CA29DD198E00561A17 /* TabbarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarItemView.swift; sourceTree = "<group>"; };
+		AE8DB6CC29DD1B6F00561A17 /* TabbarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarItem.swift; sourceTree = "<group>"; };
+		AE8DB6CE29DD1C5000561A17 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		AE8DB6D229DD201D00561A17 /* AlbumsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsModel.swift; sourceTree = "<group>"; };
+		AE8DB6D429DD202700561A17 /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
+		AE8DB6D929DD219300561A17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AE8DB6DB29DD232A00561A17 /* TabbarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewModel.swift; sourceTree = "<group>"; };
+		AE8DB6DD29DD233C00561A17 /* TabbarDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarDataViewModel.swift; sourceTree = "<group>"; };
+		AE8DB6DF29DD2BEC00561A17 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		AE8DB6E129DD2C0700561A17 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		AE8DB6E329DD31C200561A17 /* MainTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarView.swift; sourceTree = "<group>"; };
+		AE8DB6E529DD3A1100561A17 /* ImageWIthTitleId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWIthTitleId.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +121,10 @@
 			children = (
 				AE8DB69E29DD192400561A17 /* DyamicTopTabbarApp.swift */,
 				AE8DB6A029DD192400561A17 /* ContentView.swift */,
+				AE8DB6D629DD213A00561A17 /* Utilties */,
+				AE8DB6D129DD1FFC00561A17 /* ViewModel */,
+				AE8DB6D029DD1FEE00561A17 /* Model */,
+				AE8DB6C929DD197200561A17 /* Views */,
 				AE8DB6A229DD192500561A17 /* Assets.xcassets */,
 				AE8DB6A429DD192500561A17 /* DyamicTopTabbar.entitlements */,
 				AE8DB6A529DD192500561A17 /* Preview Content */,
@@ -127,6 +155,46 @@
 				AE8DB6BC29DD192500561A17 /* DyamicTopTabbarUITestsLaunchTests.swift */,
 			);
 			path = DyamicTopTabbarUITests;
+			sourceTree = "<group>";
+		};
+		AE8DB6C929DD197200561A17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE8DB6CA29DD198E00561A17 /* TabbarItemView.swift */,
+				AE8DB6E529DD3A1100561A17 /* ImageWIthTitleId.swift */,
+				AE8DB6CE29DD1C5000561A17 /* TabbarView.swift */,
+				AE8DB6CC29DD1B6F00561A17 /* TabbarItem.swift */,
+				AE8DB6E329DD31C200561A17 /* MainTabbarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE8DB6D029DD1FEE00561A17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE8DB6D229DD201D00561A17 /* AlbumsModel.swift */,
+				AE8DB6D429DD202700561A17 /* PhotosModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE8DB6D129DD1FFC00561A17 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AE8DB6DB29DD232A00561A17 /* TabbarViewModel.swift */,
+				AE8DB6DD29DD233C00561A17 /* TabbarDataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AE8DB6D629DD213A00561A17 /* Utilties */ = {
+			isa = PBXGroup;
+			children = (
+				AE8DB6D929DD219300561A17 /* Constants.swift */,
+				AE8DB6DF29DD2BEC00561A17 /* ImageView.swift */,
+				AE8DB6E129DD2C0700561A17 /* ImageLoader.swift */,
+			);
+			path = Utilties;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +327,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE8DB6D529DD202700561A17 /* PhotosModel.swift in Sources */,
 				AE8DB6A129DD192400561A17 /* ContentView.swift in Sources */,
+				AE8DB6E229DD2C0700561A17 /* ImageLoader.swift in Sources */,
+				AE8DB6DC29DD232A00561A17 /* TabbarViewModel.swift in Sources */,
+				AE8DB6D329DD201D00561A17 /* AlbumsModel.swift in Sources */,
+				AE8DB6E029DD2BEC00561A17 /* ImageView.swift in Sources */,
+				AE8DB6CB29DD198E00561A17 /* TabbarItemView.swift in Sources */,
+				AE8DB6CD29DD1B6F00561A17 /* TabbarItem.swift in Sources */,
+				AE8DB6DE29DD233C00561A17 /* TabbarDataViewModel.swift in Sources */,
+				AE8DB6CF29DD1C5000561A17 /* TabbarView.swift in Sources */,
 				AE8DB69F29DD192400561A17 /* DyamicTopTabbarApp.swift in Sources */,
+				AE8DB6DA29DD219300561A17 /* Constants.swift in Sources */,
+				AE8DB6E429DD31C200561A17 /* MainTabbarView.swift in Sources */,
+				AE8DB6E629DD3A1100561A17 /* ImageWIthTitleId.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +509,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -437,7 +517,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.DyamicTopTabbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -467,7 +549,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -475,7 +557,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.DyamicTopTabbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

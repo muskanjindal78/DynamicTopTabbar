@@ -1,26 +1,15 @@
-//
-//  ContentView.swift
-//  DyamicTopTabbar
-//
-//  Created by head_guest on 05/04/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var tabbarViewModel = TabbarViewModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            if let albumList = tabbarViewModel.albumList {
+                MainTabbarView(albumList: albumList)
+            }
         }
-        .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        .onAppear {
+            tabbarViewModel.getTabbarList()
+        }
     }
 }
